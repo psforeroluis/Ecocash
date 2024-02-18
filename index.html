@@ -9,11 +9,11 @@
 </head>
 <body>
 <div class="container">
-    <label for="codigoBarras">Código de Barras:</label>
+    <label for="codigoBarras">Código de Barras o SKU:</label>
     <input type="text" id="codigoBarras" placeholder="Escanear código de barras">
     <button onclick="buscarEnlace()">Buscar en Pedidos</button>
     <button onclick="buscarEnlaceProducto()">Buscar en Inventario</button>
-    <button onclick="initClientAndBuscarEnGoogleSheets()">Buscar en Google Sheets</button>
+    <button onclick="initClientAndBuscarEnGoogleSheets()">Buscar ubicación</button>
 </div>
 <div id="resultado" class="result-container">
     <div id="productoResultado"></div>
