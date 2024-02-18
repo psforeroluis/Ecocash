@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 20px;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resultado {
+    margin-top: 20px;
+    text-align: left;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#productoResultado,
+#ubicacionResultado {
+    margin-bottom: 10px;
+}

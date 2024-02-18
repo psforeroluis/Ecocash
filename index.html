@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Código de Barras</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://apis.google.com/js/api.js"></script>
+</head>
+<body>
+<div class="container">
+    <label for="codigoBarras">Código de Barras:</label>
+    <input type="text" id="codigoBarras" placeholder="Escanear código de barras">
+    <button onclick="buscarEnlace()">Buscar en Pedidos</button>
+    <button onclick="buscarEnlaceProducto()">Buscar en Inventario</button>
+    <button onclick="initClientAndBuscarEnGoogleSheets()">Buscar en Google Sheets</button>
+</div>
+<div id="resultado" class="result-container">
+    <div id="productoResultado"></div>
+    <div id="ubicacionResultado"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
