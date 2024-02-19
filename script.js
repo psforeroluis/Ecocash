@@ -35,7 +35,7 @@ function buscarEnlace() {
 
 function buscarEnlaceProducto() {
     var codigoBarras = document.getElementById("codigoBarras").value;
-    var enlace = "https://sellercentral.amazon.es/inventory/ref=xx_invmgr_favb_xx?tbla_myitable=sort:%7B%22sortOrder%22%3A%22DESCENDING%22%2C%22sortedColumnId%22%3A%22date%22%7D;search=" + codigoBarras + ";pagination:1";
+    var enlace = "https://sellercentral.amazon.es/inventory/ref=xx_invmgr_favb_xx?tbla_myitable=sort:%7B%22sortOrder%22%3A%22DESCENDING%22%2C%22sortedColumnId%22%3A%22date%22%7D;search:" + codigoBarras + ";pagination:1";
     window.open(enlace, '_blank');
 }
 
